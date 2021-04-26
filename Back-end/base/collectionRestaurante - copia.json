@@ -1,0 +1,902 @@
+[{
+  "_id": {
+    "$oid": "5f83e3308a90e237302621ac"
+  },
+  "id": 1,
+  "nombre": "McDonald's",
+  "direccion": "Triunvirato 4600",
+  "logo": "images\\mc.png",
+  "login": [
+    {
+      "user": "iñako",
+      "password": "sinpel"
+    }
+  ],
+  "mesas": [
+    {
+      "numMesa": 18,
+      "ocupada": false,
+      "qr": "C:\\Users\\Familia Gimenez\\Documents\\GitHub\\ProyectoFinal\\APP\\.\\src\\com\\company\\images\\qr\\Mesa18.png"
+    },
+    {
+      "numMesa": 15,
+      "ocupada": false,
+      "qr": "C:\\Users\\Familia Gimenez\\Documents\\GitHub\\ProyectoFinal\\APP\\.\\src\\com\\company\\images\\qr\\Mesa15.png"
+    },
+    {
+      "numMesa": 13,
+      "ocupada": false,
+      "qr": "C:\\Users\\Familia Gimenez\\Documents\\GitHub\\ProyectoFinal\\APP\\.\\src\\com\\company\\images\\qr\\Mesa13.png"
+    },
+    {
+      "numMesa": 17,
+      "ocupada": false,
+      "qr": "C:\\Users\\Familia Gimenez\\Documents\\GitHub\\ProyectoFinal\\APP\\.\\src\\com\\company\\images\\qr\\Mesa17.png"
+    },
+    {
+      "numMesa": 4,
+      "ocupada": false,
+      "qr": "C:\\Users\\Familia Gimenez\\Documents\\GitHub\\ProyectoFinal\\APP\\.\\src\\com\\company\\images\\qr\\Mesa4.png"
+    },
+    {
+      "numMesa": 2,
+      "ocupada": false,
+      "qr": "C:\\Users\\Familia Gimenez\\Documents\\GitHub\\ProyectoFinal\\APP\\qr2.png"
+    },
+    {
+      "numMesa": 16,
+      "ocupada": false,
+      "qr": "C:\\Users\\Familia Gimenez\\Documents\\GitHub\\ProyectoFinal\\APP\\.\\src\\com\\company\\images\\qr\\Mesa16.png"
+    },
+    {
+      "qr": null,
+      "numMesa": 18,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 19,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 20,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 21,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 22,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 23,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 24,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 25,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 26,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 27,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 28,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 29,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 30,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 31,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 32,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 33,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 34,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 35,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 36,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 37,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 37,
+      "ocupada": false
+    },
+    {
+      "qr": null,
+      "numMesa": 38,
+      "ocupada": false
+    }
+  ],
+  "seccionesPlatos": [
+    {
+      "nombre": "Pastas",
+      "platos": [
+        {
+          "nombre": "Ñoquis",
+          "precio": 50.2,
+          "imagen": "C:\\Users\\Familia Gimenez\\Documents\\GitHub\\ProyectoFinal\\Back-end\\backendPF\\images\\ñoquis.png",
+          "descripcion": "muy ricos",
+          "demora": "25min",
+          "agregados": [
+            {
+              "nombre": "Porcion",
+              "indispensable": true,
+              "agregados": {
+                "Media": 0,
+                "Entera": 50
+              }
+            },
+            {
+              "nombre": "Salsas",
+              "indispensable": false,
+              "agregados": {
+                "Tuco": 120,
+                "Bolognesa": 100
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "Pizza napolitana",
+          "precio": 400,
+          "imagen": "C:\\Users\\Familia Gimenez\\Documents\\GitHub\\ProyectoFinal\\Back-end\\backendPF\\images\\pizza.png",
+          "descripcion": "Pizza estilo napolitana compuesta por tomate, muzzarella y albahaca",
+          "demora": "15min",
+          "agregados": []
+        },
+        {
+          "nombre": "Hnhng",
+          "precio": 461846,
+          "imagen": "C:\\Users\\Familia Gimenez\\Documents\\GitHub\\ProyectoFinal\\APP\\src\\com\\company\\images\\factura.png",
+          "descripcion": "hgnff",
+          "demora": "15163",
+          "agregados": []
+        }
+      ]
+    },
+    {
+      "nombre": "Carnes",
+      "platos": [
+        {
+          "descripcion": "500g de Bife de chorizo acompañado con una guarnición de papas fritas",
+          "precio": 860,
+          "demora": "30min",
+          "calificacion": 5,
+          "agregados": [
+            {
+              "tipo": "Punto",
+              "agregado": [
+                {
+                  "precio": 0,
+                  "nombre": "Cocido"
+                },
+                {
+                  "precio": 0,
+                  "nombre": "Medio"
+                }
+              ],
+              "indispensable": true
+            },
+            {
+              "tipo": "Guarnición",
+              "agregado": [
+                {
+                  "precio": 20,
+                  "nombre": "Ensalada de zanahoria y huevo"
+                },
+                {
+                  "precio": 0,
+                  "nombre": "Papas fritas"
+                }
+              ],
+              "indispensable": true
+            }
+          ],
+          "imagen": "images\\bife.png",
+          "nombre": "Bife de chorizo con papas fritas"
+        },
+        {
+          "descripcion": "Tira de asado, vacio, entraña y un matrimonio acompañado con dos porciones de papas fritas. Comen 2 o 3.",
+          "precio": 1700,
+          "demora": "25MIN",
+          "calificacion": 5,
+          "agregados": [
+            {
+              "tipo": "Guarnición",
+              "agregado": [
+                {
+                  "precio": 0,
+                  "nombre": "2 porciones de papas fritas"
+                },
+                {
+                  "precio": 100,
+                  "nombre": "2 ensaladas mixtas"
+                },
+                {
+                  "precio": 0,
+                  "nombre": "1 porción de papas fritas y 1  de ensalada "
+                }
+              ],
+              "indispensable": true
+            }
+          ],
+          "imagen": "images\\parrilla2.png",
+          "nombre": "Parrillada para 2"
+        },
+        {
+          "descripcion": "sanguche de chorizo a la parrilla con chimichurri",
+          "precio": 260,
+          "demora": "6min",
+          "calificacion": 5,
+          "agregados": [
+            {
+              "tipo": "Guarnición",
+              "agregado": [
+                {
+                  "precio": 120,
+                  "nombre": "Papas fritas"
+                }
+              ],
+              "indispensable": false
+            }
+          ],
+          "imagen": "images\\chori.png",
+          "nombre": "Choripan"
+        },
+        {
+          "descripcion": "Pollo a la parrilla adobado acompañado con una porción de papas baston fritas",
+          "precio": 699.5,
+          "demora": "30min",
+          "calificacion": 5,
+          "agregados": [
+            {
+              "tipo": "Postres",
+              "agregado": [
+                {
+                  "precio": 0,
+                  "nombre": "Nada"
+                },
+                {
+                  "precio": 120.75,
+                  "nombre": "Mousse de chocolate"
+                },
+                {
+                  "precio": 100,
+                  "nombre": "Flan con dulce de leche"
+                }
+              ],
+              "indispensable": true
+            }
+          ],
+          "imagen": "images\\pollopapa.png",
+          "nombre": "Pollo con papas fritas"
+        },
+        {
+          "descripcion": "Tira de asado cortada fina a la parrilla",
+          "precio": 500.1,
+          "demora": "20min",
+          "calificacion": 5,
+          "agregados": [
+            {
+              "tipo": "Punto de la carne",
+              "agregado": [
+                {
+                  "precio": 0,
+                  "nombre": "Cocido"
+                },
+                {
+                  "precio": 0,
+                  "nombre": "A punto"
+                }
+              ],
+              "indispensable": true
+            }
+          ],
+          "imagen": "images\\asadoB.png",
+          "nombre": "Asado banderita"
+        }
+      ]
+    },
+    {
+      "nombre": "Empanadas",
+      "platos": [
+        {
+          "descripcion": "Empanada de carne salteña frita en grasa de cerdo",
+          "precio": 100,
+          "demora": "30min",
+          "calificacion": 5,
+          "agregados": [
+            {
+              "tipo": "Salsas",
+              "agregado": [
+                {
+                  "precio": 0,
+                  "nombre": "Limon"
+                }
+              ],
+              "indispensable": true
+            }
+          ],
+          "imagen": "images\\empanadaSalteña.jpg",
+          "nombre": "Empanada salteña"
+        },
+        {
+          "descripcion": "Empanada rellena de jamon y queso.",
+          "precio": 111.5,
+          "demora": "25MIN",
+          "calificacion": 5,
+          "agregados": [
+            {
+              "tipo": "Salsas",
+              "agregado": [
+                {
+                  "precio": 0,
+                  "nombre": "Limon"
+                }
+              ],
+              "indispensable": true
+            }
+          ],
+          "imagen": "images\\jqemp.jpg",
+          "nombre": "Empanada de jamon y queso"
+        },
+        {
+          "descripcion": "Docena surtida de empanadas fritas",
+          "precio": 860,
+          "demora": "6min",
+          "calificacion": 5,
+          "agregados": [
+            {
+              "tipo": "Salsas",
+              "agregado": [
+                {
+                  "precio": 120,
+                  "nombre": "Limon"
+                }
+              ],
+              "indispensable": false
+            }
+          ],
+          "imagen": "images\\empanadaSalteña.jpg",
+          "nombre": "Surtido de empanadas"
+        }
+      ]
+    },
+    {
+      "nombre": "Postres",
+      "platos": [
+        {
+          "descripcion": "Cono con 2 bochas de helado de crema",
+          "precio": 860,
+          "demora": "30min",
+          "calificacion": 5,
+          "agregados": [
+            {
+              "tipo": "Sabores",
+              "agregado": [
+                {
+                  "precio": 0,
+                  "nombre": "Chocolate y Dulce de leche"
+                },
+                {
+                  "precio": 0,
+                  "nombre": "Banana Split y Dulce de leche"
+                }
+              ],
+              "indispensable": true
+            },
+            {
+              "tipo": "Toppings",
+              "agregado": [
+                {
+                  "precio": 20,
+                  "nombre": "Baño de chocolate"
+                },
+                {
+                  "precio": 0,
+                  "nombre": "Lluvia de rocklets"
+                }
+              ],
+              "indispensable": true
+            }
+          ],
+          "imagen": "images\\helado.jpg",
+          "nombre": "Cono de helados"
+        },
+        {
+          "descripcion": "Mousse de chocolate casero",
+          "precio": 1700,
+          "demora": "25MIN",
+          "calificacion": 5,
+          "agregados": [
+            {
+              "tipo": "Sabor",
+              "agregado": [
+                {
+                  "precio": 0,
+                  "nombre": "Limon"
+                },
+                {
+                  "precio": 100,
+                  "nombre": "Chocolate"
+                }
+              ],
+              "indispensable": true
+            }
+          ],
+          "imagen": "images\\mousse.jpg",
+          "nombre": "Mousse"
+        },
+        {
+          "descripcion": "Torta de chocolina, dulce de leche y queso crema",
+          "precio": 260,
+          "demora": "6min",
+          "calificacion": 5,
+          "agregados": [],
+          "imagen": "images\\chocotorta.jpg",
+          "nombre": "Chocotorta"
+        }
+      ]
+    },
+    {
+      "nombre": "Carnes2",
+      "platos": []
+    }
+  ],
+  "pedidos": [
+    {
+      "fecha": "18-11-2020 16:51:24",
+      "nMesa": 2,
+      "nPedido": 1,
+      "platos": [
+        {
+          "fecha": "18-11-2020 16:51:24",
+          "precio": 1700,
+          "agregados": [
+            {
+              "precio": "0",
+              "nombre": "2 porciones de papas fritas"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Parrillada para 2"
+        },
+        {
+          "fecha": "18-11-2020 16:51:33",
+          "precio": 1700,
+          "agregados": [
+            {
+              "precio": "0",
+              "nombre": "2 porciones de papas fritas"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Parrillada para 2"
+        },
+        {
+          "fecha": "18-11-2020 16:51:55",
+          "precio": 860,
+          "agregados": [
+            {
+              "precio": "0",
+              "nombre": "Cocido"
+            },
+            {
+              "precio": "20",
+              "nombre": "Ensalada de zanahoria y huevo"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Bife de chorizo con papas fritas"
+        },
+        {
+          "fecha": "18-11-2020 16:51:55",
+          "precio": 1700,
+          "agregados": [
+            {
+              "precio": "0",
+              "nombre": "2 porciones de papas fritas"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Parrillada para 2"
+        },
+        {
+          "fecha": "18-11-2020 16:51:55",
+          "precio": 260,
+          "agregados": [
+            {
+              "precio": "120",
+              "nombre": "Papas fritas"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Choripan"
+        },
+        {
+          "fecha": "18-11-2020 16:58:11",
+          "precio": 111.5,
+          "agregados": [
+            {
+              "precio": "0",
+              "nombre": "Limon"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Empanada de jamon y queso"
+        },
+        {
+          "fecha": "18-11-2020 17:17:09",
+          "precio": 860,
+          "agregados": [
+            {
+              "precio": "120",
+              "nombre": "Limon"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Surtido de empanadas"
+        },
+        {
+          "fecha": "18-11-2020 17:17:09",
+          "precio": 111.5,
+          "agregados": [
+            {
+              "precio": "0",
+              "nombre": "Limon"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Empanada de jamon y queso"
+        }
+      ],
+      "abierto": true
+    },
+    {
+      "fecha": "18-11-2020 17:17:40",
+      "nMesa": 1,
+      "nPedido": 2,
+      "platos": [
+        {
+          "fecha": "18-11-2020 17:17:40",
+          "precio": 400,
+          "agregados": [],
+          "entregado": false,
+          "nombrePlato": "Pizza napolitana"
+        },
+        {
+          "fecha": "18-11-2020 17:17:40",
+          "precio": 50.2,
+          "agregados": [
+            {
+              "precio": "50",
+              "nombre": "Entera"
+            },
+            {
+              "precio": "100",
+              "nombre": "Bolognesa"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Ñoquis"
+        },
+        {
+          "fecha": "18-11-2020 17:47:19",
+          "precio": 699.5,
+          "agregados": [
+            {
+              "precio": "120.75",
+              "nombre": "Mousse de chocolate"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Pollo con papas fritas"
+        },
+        {
+          "fecha": "18-11-2020 17:47:19",
+          "precio": 1700,
+          "agregados": [
+            {
+              "precio": "100",
+              "nombre": "2 ensaladas mixtas"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Parrillada para 2"
+        },
+        {
+          "fecha": "18-11-2020 17:47:19",
+          "precio": 50.2,
+          "agregados": [
+            {
+              "precio": "50",
+              "nombre": "Entera"
+            },
+            {
+              "precio": "100",
+              "nombre": "Bolognesa"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Ñoquis"
+        },
+        {
+          "fecha": "18-11-2020 17:47:19",
+          "precio": 50.2,
+          "agregados": [
+            {
+              "precio": "50",
+              "nombre": "Entera"
+            },
+            {
+              "precio": "100",
+              "nombre": "Bolognesa"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Ñoquis"
+        },
+        {
+          "fecha": "18-11-2020 17:49:03",
+          "precio": 860,
+          "agregados": [
+            {
+              "precio": "120",
+              "nombre": "Limon"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Surtido de empanadas"
+        },
+        {
+          "fecha": "18-11-2020 17:49:03",
+          "precio": 111.5,
+          "agregados": [
+            {
+              "precio": "0",
+              "nombre": "Limon"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Empanada de jamon y queso"
+        },
+        {
+          "fecha": "18-11-2020 17:49:49",
+          "precio": 111.5,
+          "agregados": [
+            {
+              "precio": "0",
+              "nombre": "Limon"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Empanada de jamon y queso"
+        },
+        {
+          "fecha": "18-11-2020 17:50:33",
+          "precio": 860,
+          "agregados": [],
+          "entregado": false,
+          "nombrePlato": "Surtido de empanadas"
+        },
+        {
+          "fecha": "18-11-2020 17:50:33",
+          "precio": 111.5,
+          "agregados": [
+            {
+              "precio": "0",
+              "nombre": "Limon"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Empanada de jamon y queso"
+        },
+        {
+          "fecha": "18-11-2020 17:51:08",
+          "precio": 400,
+          "agregados": [],
+          "entregado": false,
+          "nombrePlato": "Pizza napolitana"
+        },
+        {
+          "fecha": "18-11-2020 17:51:08",
+          "precio": 50.2,
+          "agregados": [
+            {
+              "precio": "50",
+              "nombre": "Entera"
+            },
+            {
+              "precio": "100",
+              "nombre": "Bolognesa"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Ñoquis"
+        },
+        {
+          "fecha": "18-11-2020 17:52:07",
+          "precio": 260,
+          "agregados": [
+            {
+              "precio": "120",
+              "nombre": "Papas fritas"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Choripan"
+        },
+        {
+          "fecha": "18-11-2020 17:52:17",
+          "precio": 260,
+          "agregados": [],
+          "entregado": false,
+          "nombrePlato": "Choripan"
+        },
+        {
+          "fecha": "18-11-2020 17:53:22",
+          "precio": 1700,
+          "agregados": [
+            {
+              "precio": "100",
+              "nombre": "2 ensaladas mixtas"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Parrillada para 2"
+        },
+        {
+          "fecha": "18-11-2020 17:53:22",
+          "precio": 260,
+          "agregados": [],
+          "entregado": false,
+          "nombrePlato": "Choripan"
+        },
+        {
+          "fecha": "18-11-2020 17:53:50",
+          "precio": 1700,
+          "agregados": [
+            {
+              "precio": "100",
+              "nombre": "2 ensaladas mixtas"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Parrillada para 2"
+        },
+        {
+          "fecha": "18-11-2020 17:58:41",
+          "precio": 50.2,
+          "agregados": [
+            {
+              "precio": "0",
+              "nombre": "Media"
+            },
+            {
+              "precio": "100",
+              "nombre": "Bolognesa"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Ñoquis"
+        },
+        {
+          "fecha": "18-11-2020 17:58:41",
+          "precio": 400,
+          "agregados": [],
+          "entregado": false,
+          "nombrePlato": "Pizza napolitana"
+        },
+        {
+          "fecha": "18-11-2020 18:05:18",
+          "precio": 50.2,
+          "agregados": [
+            {
+              "precio": "50",
+              "nombre": "Entera"
+            },
+            {
+              "precio": "100",
+              "nombre": "Bolognesa"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Ñoquis"
+        },
+        {
+          "fecha": "18-11-2020 18:06:07",
+          "precio": 50.2,
+          "agregados": [
+            {
+              "precio": "50",
+              "nombre": "Entera"
+            },
+            {
+              "precio": "100",
+              "nombre": "Bolognesa"
+            }
+          ],
+          "entregado": false,
+          "nombrePlato": "Ñoquis"
+        }
+      ],
+      "abierto": false
+    },
+    {
+      "fecha": "19-11-2020 16:25:14",
+      "nMesa": 1,
+      "nPedido": 3,
+      "platos": [
+        {
+          "fecha": "19-01-2020 16:25:14",
+          "precio": 860,
+          "agregados": [
+            {
+              "precio": 0,
+              "nombre": "Cocido"
+            },
+            {
+              "precio": 20,
+              "nombre": "Ensalada de zanahoria y huevo"
+            }
+          ],
+          "entregado": true,
+          "nombrePlato": "Bife de chorizo con papas fritas"
+        }
+      ],
+      "abierto": true
+    }
+  ]
+}]
